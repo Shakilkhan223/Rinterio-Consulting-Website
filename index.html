@@ -8,7 +8,7 @@
 
     <!-- fontawesome CDN  -->
     <script
-      src="https://kit.fontawesome.com/4b9ba14b0f.js"
+      src="https://kit.fontawesome.com/c2acd37326.js"
       crossorigin="anonymous"
     ></script>
 
@@ -44,8 +44,170 @@
         },
       };
     </script>
+
+    <style>
+      .navbar-end {
+        width: auto;
+      }
+
+      .navbar-start {
+        width: auto;
+      }
+
+      .navbar {
+        justify-content: space-between;
+      }
+    </style>
   </head>
-  <body class="font-manrope">
-    <h1 class="text-3xl font-extrabold text-rinterio-green">Rinterio</h1>
+  <body class="font-manrope bg-[#F4F4F4]">
+    <!-- header section  -->
+    <header>
+      <!-- header container  -->
+      <div class="max-w-screen-xl mx-auto px-5">
+        <!-- nav bar section -->
+        <nav class="py-10">
+          <div class="navbar">
+            <div class="navbar-start">
+              <a href="#" class="flex items-center gap-2"
+                ><span
+                  class="bg-rinterio-green w-8 h-8 rounded-full flex items-center justify-center"
+                  ><i class="fa-solid fa-arrow-right-long -rotate-45"></i
+                ></span>
+                <span class="text-3xl font-extrabold text-rinterio-black"
+                  >Rinterio</span
+                ></a
+              >
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="flex space-x-9">
+                <li>
+                  <a
+                    class="font-medium opacity-60 hover:opacity-100 duration-500"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-medium opacity-60 hover:opacity-100 duration-500"
+                    href="#"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-medium opacity-60 hover:opacity-100 duration-500"
+                    href="#"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-medium opacity-60 hover:opacity-100 duration-500"
+                    href="#"
+                    >Blogs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-medium opacity-60 hover:opacity-100 duration-500"
+                    href="#"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-end space-x-3">
+              <i
+                class="fa-solid fa-cart-shopping w-8 h-8 bg-white inline-flex items-center justify-center rounded-full p-5 text-gray-500 hover:text-rinterio-black duration-300 cursor-pointer"
+              ></i>
+              <i
+                class="fa-solid fa-magnifying-glass w-8 h-8 bg-white inline-flex items-center justify-center rounded-full p-5 text-gray-500 hover:text-rinterio-black duration-300 cursor-pointer"
+              ></i>
+              <a
+                href="#"
+                class="hidden sm:flex items-center gap-2 bg-rinterio-green px-5 py-3 rounded-full hover:-translate-y-1 hover:scale-105 duration-500"
+                ><span class="text-xl font-extrabold text-rinterio-black"
+                  >Book Consult</span
+                >
+                <span
+                  class="bg-rinterio-black w-8 h-8 rounded-full flex items-center justify-center"
+                  ><i
+                    class="fa-solid fa-arrow-right-long text-white -rotate-45"
+                  ></i></span
+              ></a>
+              <div class="dropdown dropdown-end">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="lg:hidden w-10 h-10 bg-white rounded-full inline-flex items-center justify-center hover:text-rinterio-black duration-300 cursor-pointer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                >
+                  <li>
+                    <a
+                      class="font-medium opacity-60 hover:opacity-100 duration-500 mb-2"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-medium opacity-60 hover:opacity-100 duration-500 mb-2"
+                      href="#"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-medium opacity-60 hover:opacity-100 duration-500 mb-2"
+                      href="#"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-medium opacity-60 hover:opacity-100 duration-500 mb-2"
+                      href="#"
+                      >Blogs</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-medium opacity-60 hover:opacity-100 duration-500 mb-2"
+                      href="#"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main></main>
+
+    <!-- footer section  -->
+    <footer></footer>
   </body>
 </html>
