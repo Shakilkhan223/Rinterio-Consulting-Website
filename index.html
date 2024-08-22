@@ -57,15 +57,23 @@
       .navbar {
         justify-content: space-between;
       }
+
+      .bg-gradient {
+        background: linear-gradient(
+          0deg,
+          rgb(255, 255, 255) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
     </style>
   </head>
   <body class="font-manrope bg-[#F4F4F4]">
     <!-- header section  -->
-    <header>
+    <header class="bg-gradient">
       <!-- header container  -->
       <div class="max-w-screen-xl mx-auto px-5">
         <!-- nav bar section -->
-        <nav class="py-10">
+        <nav class="sm:py-10 py-5">
           <div class="navbar">
             <div class="navbar-start">
               <a href="#" class="flex items-center gap-2"
@@ -201,11 +209,47 @@
             </div>
           </div>
         </nav>
+
+        <!-- hero section -->
+        <div
+          class="flex flex-col items-center justify-center md:max-w-[1080px] sm:max-w-[600px] mx-auto text-center sm:pb-24 pb-12"
+        >
+          <img src="assets/banner.png" alt="House" class="mb-6" />
+          <h1
+            class="mb-5 md:text-6xl sm:text-4xl text-3xl font-extrabold text-rinterio-black leading-tight"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <p
+            class="mb-8 text-rinterio-black opacity-70 max-w-[900px] mx-auto text-sm sm:text-base"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <a
+            href="#"
+            class="flex w-full sm:w-auto justify-center items-center gap-2 bg-rinterio-green/50 px-5 py-3 rounded-full hover:-translate-y-1 hover:scale-105 hover:bg-rinterio-green duration-500"
+            ><span class="text-xl font-bold text-rinterio-black"
+              >View Details</span
+            >
+            <span
+              class="bg-rinterio-black w-8 h-8 rounded-full flex items-center justify-center"
+              ><i
+                class="fa-solid fa-arrow-right-long text-white -rotate-45"
+              ></i></span
+          ></a>
+        </div>
       </div>
     </header>
 
     <!-- main section -->
-    <main></main>
+    <main class="max-w-screen-xl mx-auto px-5">
+      <!-- About Us section  -->
+      <section class="py-24">
+        <!-- About section wrapper  -->
+      </section>
+    </main>
 
     <!-- footer section  -->
     <footer></footer>
