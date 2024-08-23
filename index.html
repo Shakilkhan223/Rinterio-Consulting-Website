@@ -73,6 +73,10 @@
         background-position: center;
         background-attachment: fixed;
       }
+
+      .carousel {
+        scroll-snap-type: none;
+      }
     </style>
   </head>
   <body class="font-manrope bg-[#F4F4F4]">
@@ -789,8 +793,215 @@
         </div>
       </section>
 
+      <!-- Testimonial Section  -->
+      <section class="max-w-screen-xl mx-auto px-5">
+        <div class="py-24 bg-white rounded-xl shadow-md">
+          <!-- title  -->
+          <div>
+            <div class="flex justify-center">
+              <div
+                class="font-bold px-5 py-3 bg-rinterio-green/20 inline-block rounded-full shadow-md mb-6"
+              >
+                <i class="fa-solid fa-arrow-right-long mr-1"></i> Get the best
+                experience
+              </div>
+            </div>
+
+            <!-- content  -->
+            <h2 class="sm:text-[40px] text-2xl font-extrabold mb-6 text-center">
+              What client says?
+            </h2>
+            <p
+              class="mb-10 opacity-70 text-sm sm:text-base text-center max-w-[650px] mx-auto"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <div class="carousel w-full">
+            <!-- slider 01  -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="w-3/4 mx-auto">
+                <div
+                  class="border sm:text-lg text-sm p-6 rounded-xl text-center mb-6 opacity-70"
+                >
+                  <p>
+                    "Working with Rinterio was a game-changer for us. From the
+                    first meeting to the closing day, everything was handled
+                    with the utmost professionalism. Sarah helped us find our
+                    dream home in a neighborhood we love. We couldn’t be happier
+                    with our experience!"
+                  </p>
+                </div>
+
+                <!-- client profile  -->
+                <div class="flex items-center gap-4 justify-center">
+                  <div>
+                    <i
+                      class="fa-solid fa-user-tie text-2xl w-14 h-12 inline-flex items-center justify-center rounded-full bg-rinterio-green"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 class="font-extrabold text-lg">Anil Barua</h3>
+                    <p class="opacity-70">Owner of Bartha House</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a
+                  href="#slide4"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❯</a
+                >
+              </div>
+            </div>
+
+            <!-- slider 02  -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <div class="w-3/4 mx-auto">
+                <div
+                  class="border sm:text-lg text-sm p-6 rounded-xl text-center mb-6 opacity-70"
+                >
+                  <p>
+                    "After searching for months, we finally found the perfect
+                    property thanks to Rinterio. David was patient,
+                    understanding, and really took the time to understand what
+                    we were looking for. We couldn’t have asked for a better
+                    experience."
+                  </p>
+                </div>
+
+                <!-- client profile  -->
+                <div class="flex items-center gap-4 justify-center">
+                  <div>
+                    <i
+                      class="fa-solid fa-user-tie text-2xl w-14 h-12 inline-flex items-center justify-center rounded-full bg-rinterio-green"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 class="font-extrabold text-lg">Linda Thompson</h3>
+                    <p class="opacity-70">Head of BD Port</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a
+                  href="#slide1"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❮</a
+                >
+                <a
+                  href="#slide3"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❯</a
+                >
+              </div>
+            </div>
+
+            <!-- slider 03  -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <div class="w-3/4 mx-auto">
+                <div
+                  class="border sm:text-lg text-sm p-6 rounded-xl text-center mb-6 opacity-70"
+                >
+                  <p>
+                    "Selling our home with Rinterio was an absolute breeze.
+                    Jessica was always available to answer our questions and
+                    provided excellent advice on how to stage our home. It sold
+                    faster than we ever expected! Thank you for your hard work
+                    and dedication."
+                  </p>
+                </div>
+
+                <!-- client profile  -->
+                <div class="flex items-center gap-4 justify-center">
+                  <div>
+                    <i
+                      class="fa-solid fa-user-tie text-2xl w-14 h-12 inline-flex items-center justify-center rounded-full bg-rinterio-green"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 class="font-extrabold text-lg">Jessica Lee</h3>
+                    <p class="opacity-70">CEO of Ren-House</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a
+                  href="#slide2"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❮</a
+                >
+                <a
+                  href="#slide4"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❯</a
+                >
+              </div>
+            </div>
+
+            <!-- slider 04  -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <div class="w-3/4 mx-auto">
+                <div
+                  class="border sm:text-lg text-sm p-6 rounded-xl text-center mb-6 opacity-70"
+                >
+                  <p>
+                    "Working with this company was a game-changer for us. From
+                    the first meeting to the closing day, everything was handled
+                    with the utmost professionalism. Sarah helped us find our
+                    dream home in a neighborhood we love. We couldn’t be happier
+                    with our experience!"
+                  </p>
+                </div>
+
+                <!-- client profile  -->
+                <div class="flex items-center gap-4 justify-center">
+                  <div>
+                    <i
+                      class="fa-solid fa-user-tie text-2xl w-14 h-12 inline-flex items-center justify-center rounded-full bg-rinterio-green"
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 class="font-extrabold text-lg">Sarah Johnson</h3>
+                    <p class="opacity-70">Owner of Royal Plaza</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+              >
+                <a
+                  href="#slide3"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="bg-rinterio-green/50 w-12 h-12 inline-flex items-center justify-center rounded-full text-2xl hover:bg-rinterio-green duration-500"
+                  >❯</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- contact section  -->
-      <section class="contact-bg">
+      <section class="contact-bg mt-24">
         <!-- container wrapper  -->
         <div class="max-w-screen-xl mx-auto px-5 py-24">
           <!-- title  -->
